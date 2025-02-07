@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+    .valentine-card {
+        width: 90% !important;
+        padding: 1.5rem !important;
+        margin: 15px auto !important;
+    }
+
+    .cute-gif {
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    h2 {
+        font-size: 2em !important;
+    }
+
+    .btn {
+        padding: 10px 20px !important;
+        font-size: 1em !important;
+        margin: 5px !important;
+    }
+
+    div[style*="margin-left: 80px"] {
+        margin-left: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .footer {
+        font-size: 0.8em !important;
+        padding: 8px !important;
+    }
+
+    #noBtn {
+        position: relative !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .valentine-card {
+        padding: 1rem !important;
+    }
+
+    h2 {
+        font-size: 1.6em !important;
+    }
+
+    .cute-gif {
+        width: 70% !important;
+    }
+}
